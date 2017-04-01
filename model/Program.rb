@@ -1,6 +1,6 @@
 require_relative './Decl_Seq'
 require_relative './Stmt_Seq'
-require_relative '../Tokenizer'
+require_relative '../tokenizer/Tokenizer'
 
 class Program
   attr_accessor :tokenizer
