@@ -1,0 +1,2 @@
+To run this file without the required file passed as command line arguments, type
+"ruby Interpreter.rb". Follow the prompts to run the program.
