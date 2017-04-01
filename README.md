@@ -7,7 +7,7 @@ It parses the program, prints the program to the screen, and then prints the res
 ## How it works
 The Interpreter is built using the object oriented approach. Each non terminal symbol of the Core BNF has been defined as a class, 
 and its instance variables are the possible expansions of the symbol according to the Core BNF. 
-The parser works by recurive descent, calls the tokenizer to fetch tokens and parse the program. 
+The parser works by recursive descent, calls the tokenizer to fetch tokens and parse the program. 
 Undeclared variables are caught during parsing. The program is then printed in correct format, and executed. 
 Variables are also checked to ensure they are initialized during execution.
 The results of the write statements are printed to the console.
