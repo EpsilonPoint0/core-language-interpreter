@@ -4,6 +4,9 @@
 The Interpreter takes two files as input : the file contaning the Core program to be executed, and the input for the program. 
 It parses the program, prints the program to the screen, and then prints the results of executing the program. 
 
+## Core BNF
+See the syntax for the CORE Language [here](/docs/core-bnf.md)
+
 ## How it works
 The Interpreter is built using the object oriented approach. Each non terminal symbol of the Core BNF has been defined as a class, 
 and its instance variables are the possible expansions of the symbol according to the Core BNF. 
