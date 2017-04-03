@@ -47,11 +47,11 @@ class Interpreter
       puts "Error. Both filenames not provided. Please re run and provide necessary files"
     else
       if (not (File.file?(filename)))   
-        puts "Error: Core Program file does not exist"
+        puts "Error: Core Program file #{filename} does not exist"
         Process.exit!()
       end
       if (not (File.file?(inputdata)))    
-        puts "Error: Input file does not exist"
+        puts "Error: Input file #{inputdata} does not exist"
         Process.exit!()
       end
       #Proceed to parse, print and execute Core program
