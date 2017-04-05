@@ -20,7 +20,6 @@ class Program
     #Program is parsed and non terminal expansion parse functions are called as well
     @tokenizer.tokenizefile(filename)
     starttoken = @tokenizer.gettoken
-    puts starttoken
     if (starttoken != 'program')
       puts "Error: In program, word to be parsed should be \"program\"."
       Process.exit!()
@@ -45,8 +44,6 @@ class Program
       Process.exit!()
     end
     @tokenizer.skiptoken
-    #puts "Leaving Program"
-
     # @declarations.each do |id|
     #   puts "#{id}"
     # end
