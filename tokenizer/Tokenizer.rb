@@ -1,4 +1,4 @@
-require_relative './model/Core'
+require_relative '../model/Core'
 =begin
 NOTES ON PROGRAM
 Written by Obinna U Ngini. First ruby program try(not counting hello world script)
