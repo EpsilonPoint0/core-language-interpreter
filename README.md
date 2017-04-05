@@ -24,6 +24,7 @@ The program will be printed to the console, as will the results of executing the
 ## Test Cases
 The Interpreter was tested using the test cases as well as some error cases to ensure it terminated when encountering an invalid or incorrect program. 
 It gave correct results for all cases and there are no bugs to report.
+Program output can be validated against files found in output/ dir.
 
 ## Change Log
 1. First pass(and what was submitted for assigment) can be found at archive/Interpreter.rb
