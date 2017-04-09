@@ -31,6 +31,7 @@ dist
 
 #Eclipse metadata
 .settings
+.classpath
 .project
 
 #Webstorm metadata
@@ -44,3 +45,6 @@ dist
 
 # Mac files
 .DS_Store
+
+# Maven target dir.
+target
